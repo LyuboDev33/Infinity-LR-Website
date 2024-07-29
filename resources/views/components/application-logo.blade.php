@@ -1,0 +1,1 @@
+<img class="forget_pass_logo" src="/images/dashboard-images/infinity-img.svg" alt="Лого Infinity21">
