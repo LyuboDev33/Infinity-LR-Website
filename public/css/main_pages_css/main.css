@@ -1,0 +1,531 @@
+
+
+* { 
+  margin: 0;
+  }
+  
+  .a_menus_main { 
+    color: initial !important;
+    font-weight: initial !important;
+    text-decoration: none !important;
+  }
+
+
+  .all_widgets_widescreen { 
+    display: none !important;
+  }
+
+  .loginBtn { 
+    background-color: #234465 !important;
+    color: white !important;
+    /* display: flex !important; */
+    /* align-items: center !important; */
+    /* padding: 0.75em 1em !important; */
+    background-color: transparent;
+    border-radius: 8px;
+    /* font-size: 50px; */
+  }
+
+ 
+
+  .registerBtn { 
+    background: #2bb673 !important;
+    color: white !important;
+    border-radius: 8px;
+
+  }
+
+  .login_register_div { 
+    display: none;
+  }
+
+  .li_headers:hover { 
+    transition: 0.5s;
+    box-shadow: 3px 2px 2px #0000006b;
+    border-radius: 8px;
+    line-height: 50px;
+  } 
+
+  .li_headers:not(:hover) { 
+    transition: 0.5s;
+  }
+
+
+.contact-us { 
+  margin-top: 50px;
+}
+
+.contact-us:hover { 
+  color: #0c59db;
+  transform: scale(1.1); 
+  transition: 0.5s ;
+  
+}
+
+.contact-us:not(:hover) { 
+  transition: 0.5s !important;
+}
+
+.label_login { 
+  font-size: 18px !important;
+}
+
+.input_border { 
+  border: 1px solid black !important;
+  height: 50px !important;
+}
+
+
+.registerBTN { 
+  font-size: 20px !important;
+  margin-bottom: 12px !important;
+}
+
+.div_account { 
+  flex-direction: column-reverse !important;
+}
+
+.team-members { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title { 
+  margin-top: 20px;
+}
+
+.testimonial_photo { 
+  display: inline-block;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.testimonial-box  { 
+  margin: 20px auto;
+}
+
+  @media (min-width: 768px) { 
+
+    .team-member { 
+      width: 250px;
+    }
+
+    .header_vids { 
+      font-size: 32px
+      ;
+    }
+
+    .flexed-videos { 
+      display: flex;
+      justify-content: space-around;
+      gap: 30px;
+      text-align: center;
+    }
+
+    .iframeDiv { 
+      flex: 1;
+    }
+
+    .iframevid { 
+      margin: 14px auto;
+      height: 400px;
+      width: 100%;
+    }
+
+    .lr_logo { 
+      height: 65px;
+      margin-left: 20px;
+    }
+
+  }
+  
+  @media (max-width: 768px) { 
+
+    .flexed-videos {
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .iframevid { 
+      margin: 14px auto;
+      width: 100%;
+      height: 220px;
+    }
+
+    .iframeDiv { 
+      width: 100%;
+    }
+
+    .lr_logo { 
+      height: 65px;
+      margin-left: 20px;
+    }
+
+    .login_register_div { 
+      position: absolute;
+      bottom: 75px;
+      transform: translate(50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+
+  }
+
+  @media (min-width: 480px) { 
+
+   
+
+    .stats { 
+      height: 70px;
+    }
+
+    .image-box { 
+      display: flex;
+      padding-left: 4px !important;
+      padding-right: 4px !important;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .weWillContact { 
+      font-size: 24px;
+      text-align: center;
+      margin: 10px auto 30px;
+      font-weight: 600;
+    }
+
+    .forget_pass_logo { 
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) { 
+
+
+    .stats { 
+      height: 70px;
+    }
+  
+    .forget_pass_logo { 
+      width: 70%;
+      margin: 0 auto;
+    }
+  
+    .weWillContact {  
+      font-size: 18px;
+      text-align: center;
+      margin: 10px auto 30px;
+      font-weight: 600;
+    }
+  
+    .succes_background { 
+      height: 100vh;
+      width: 100%;
+      background: #0000007a;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .msg_success { 
+      background: white;
+      width: 84%;
+      padding: 20px;
+      border-radius: 20px;
+      font-size: 21px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .close_success_modal { 
+      background: red;
+      width: 120px;
+      margin: 20px auto 10px;
+      color: white;
+      border-radius: 10px;
+      font-size: 24px;
+      padding: 6px;
+    }
+  
+  
+  }
+
+  @media (max-width: 360px) { 
+
+    .header-navigation.breakpoint-on .site-nav-menu { 
+      width: 250px !important;
+    }
+
+    .log_reg { 
+      transform: translate(2%) !important;
+    }
+    
+  }
+
+  @media (min-width: 992px) {
+
+    .img_catalogs { 
+      height: 150px;
+      margin: 20px auto;
+    }
+
+    .download_a { 
+      text-decoration: none;
+      color: white;
+      display: block;
+      margin: 10px auto;
+      width: 210px;
+      font-size: 20px;
+      background: #2bb673;
+      border-radius: 16px;
+      box-shadow: 3px 2px 0px #000000a3;
+    }
+
+    .main_header_pdfs { 
+      height: 50px;
+    }
+
+    .pdf_container { 
+      text-align: center;
+      flex: 1;
+      padding: 10px;
+    }
+
+    .container_pdfs { 
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .catalog_text { 
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 10px;
+      font-size: 18px;
+      text-align: justify;
+      color: black;
+      font-family: "GilroyBold";
+    }
+
+    .catalog_header { 
+      text-align: center;
+      font-size: 25px;
+      font-weight: 600;
+      color: white;
+      background: #2bb673;
+      width: 100%;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      font-family: "GilroyBold";
+      text-shadow: 2px 2px 4px #000000ab;
+      letter-spacing: 2px;
+      padding: 10px;
+    }
+
+    .container_catalog { 
+      width: 95%;
+    border-radius: 18px;
+    margin: 20px auto;
+    }
+
+
+    .hr_pdfs { 
+      display: none;
+    }
+
+    .changed_flexed { 
+      display: flex !important;
+    flex-direction: row-reverse !important;
+    }
+
+    .SMALL-SCREEN-UL { 
+      display: none !important;
+      
+    }
+
+    .WIDE-SCREEN-UL { 
+      display: block !important;
+    }
+
+   
+
+    .footer_widget { 
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .widget_links { 
+      width: 240px;
+    }
+
+    .form_register { 
+      display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    gap: 65px;
+    }
+
+    .flexedDiv { 
+      flex: 1;
+    }
+
+  }
+
+  @media (min-width: 1200px) { 
+
+    .container_catalog { 
+      width: 1024px;
+      margin: 30px auto;
+    }
+
+    
+  }
+
+  @media (min-width: 1400px) { 
+
+    .container_catalog { 
+      width: 1200px;
+      margin: 30px auto;
+    }
+
+    
+  }
+
+  @media (max-width: 992px) { 
+
+    .download_a { 
+      text-decoration: none;
+      color: white;
+      display: block;
+      margin: 20px auto;
+      width: 210px;
+      font-size: 20px;
+      background: #2bb673;
+      border-radius: 16px;
+      box-shadow: 3px 2px 0px #000000a3;
+    }
+
+    .main_header_pdfs { 
+      margin: 0px auto 20px
+    }
+
+    .pdf_container { 
+      text-align: center;
+    }
+
+    .container_pdfs { 
+      padding: 20px;
+    }
+
+    .catalog_text { 
+      padding: 20px;
+      font-size: 18px;
+      text-align: justify;
+      color: black;
+      font-family: "GilroyBold";
+    }
+
+    .catalog_header { 
+      text-align: center;
+      font-size: 25px;
+      font-weight: 600;
+      color: white;
+      background: #2bb673;
+      width: 100%;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      font-family: "GilroyBold";
+      text-shadow: 2px 2px 4px #000000ab;
+      letter-spacing: 1px;
+    }
+
+    .container_catalog { 
+      width: 95%;
+    border-radius: 18px;
+    margin: 20px auto;
+    }
+
+    
+    .SMALL-SCREEN-UL { 
+      display: none !important;
+      transition: 2s;
+      
+    }
+
+    .WIDE-SCREEN-UL { 
+      display: none !important;
+      transition: 2s;
+    }
+
+
+    .a_welcome { 
+      border: 1px solid black;
+      border-radius: 8px;
+      margin-bottom: 15px !important;
+
+    }
+    
+    .registerBtn { 
+      background: #2bb673 !important;
+      color: white !important;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    .log_reg { 
+      position: absolute !important;
+      bottom: 75px;
+      transform: translate(25%);
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .loginBtn { 
+      position: relative;
+    bottom: 15px;
+    }
+
+
+  }
+  
+  
+  /* Swiper CSS CODE */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+  }
+  
+  .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+  }
+  /* Swiper CSS CODE */
+  
